@@ -7,9 +7,7 @@
  */
 
 int main(void)
-
 {
-
 	char abe[] = "_putchar";
 	int c;
 
@@ -19,7 +17,5 @@ int main(void)
 	}
 
 	_putchar('\n');
-		
 	return (0);
-
 }
