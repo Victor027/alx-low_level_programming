@@ -1,12 +1,24 @@
 #include "main.h"
 
 
+
 /**
- * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char alp = 'a';
+
+	while (alp <= 'z')
+	{
+		_putchar (alp);
+
+		alp++;
+	}
+
+	_putchar ('\n');
 	return (0);
 }
